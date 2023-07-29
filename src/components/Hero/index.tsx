@@ -16,10 +16,10 @@ export default () => {
         </p>
         <button className="hero__content__more">Learn more</button>
         <ul className="hero__content__brand-list">
-            <li className="hero__content__brand-list__item"><img src="/assets/images/client-databiz.svg" /></li>
-            <li className="hero__content__brand-list__item"><img src="/assets/images/client-audiophile.svg" /></li>
-            <li className="hero__content__brand-list__item"><img src="/assets/images/client-meet.svg" /></li>
-            <li className="hero__content__brand-list__item"><img src="/assets/images/client-maker.svg" /></li>
+            <li className="hero__content__brand-list__item"><img src="/assets/images/client-databiz.svg" alt="databiz"/></li>
+            <li className="hero__content__brand-list__item"><img src="/assets/images/client-audiophile.svg" alt="audiophile" /></li>
+            <li className="hero__content__brand-list__item"><img src="/assets/images/client-meet.svg" alt="meet" /></li>
+            <li className="hero__content__brand-list__item"><img src="/assets/images/client-maker.svg" alt="maker" /></li>
         </ul>
       </div>
       <img
