@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__mobile {
+    display: initial;
+}
+
+.menu__desktop {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+
+    header {
+        justify-content: initial;
+    }
+
+    .menu__mobile {
+        display: none;
+    }
+
+    .menu__desktop {
+        display: initial;
+        width: 100%;
+    }
+}

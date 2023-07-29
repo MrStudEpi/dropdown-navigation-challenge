@@ -1,0 +1,22 @@
+.collapse-menu button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+.collapse-menu .collapse-menu__container {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 60%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    background-color: hsl(0, 0%, 98%);
+    padding: 20px;
+}

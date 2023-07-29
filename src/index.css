@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Epilogue';
+    src: url('/assets/fonts/epilogue/Epilogue-Black.ttf') format('truetype') font-weight-black,
+        url('/assets/fonts/epilogue/Epilogue-BlackItalic.ttf') format('truetype') font-weight-blackitalic,
+        url('/assets/fonts/epilogue/Epilogue-Bold.ttf') format('truetype') font-weight-bold,
+        url('/assets/fonts/epilogue/Epilogue-BoldItalic.ttf') format('truetype') font-weight-bolditalic,
+        url('/assets/fonts/epilogue/Epilogue-ExtraBold.ttf') format('truetype') font-weight-extrabold,
+        url('/assets/fonts/epilogue/Epilogue-ExtraBoldItalic.ttf') format('truetype') font-weight-extrabolditalic,
+        url('/assets/fonts/epilogue/Epilogue-ExtraLight.ttf') format('truetype') font-weight-extralight,
+        url('/assets/fonts/epilogue/Epilogue-ExtraLightItalic.ttf') format('truetype') font-weight-extralightitalic,
+        url('/assets/fonts/epilogue/Epilogue-Italic.ttf') format('truetype') font-weight-italic,
+        url('/assets/fonts/epilogue/Epilogue-Light.ttf') format('truetype') font-weight-light,
+        url('/assets/fonts/epilogue/Epilogue-LightItalic.ttf') format('truetype') font-weight-lightitalic,
+        url('/assets/fonts/epilogue/Epilogue-Medium.ttf') format('truetype') font-weight-medium,
+        url('/assets/fonts/epilogue/Epilogue-MediumItalic.ttf') format('truetype') font-weight-mediumitalic,
+        url('/assets/fonts/epilogue/Epilogue-Regular.ttf') format('truetype') font-weight-normal,
+        url('/assets/fonts/epilogue/Epilogue-SemiBold.ttf') format('truetype') font-weight-semibold,
+        url('/assets/fonts/epilogue/Epilogue-SemiBoldItalic.ttf') format('truetype') font-weight-semibolditalic,
+        url('/assets/fonts/epilogue/Epilogue-Thin.ttf') format('truetype') font-weight-thin,
+        url('/assets/fonts/epilogue/Epilogue-ThinItalic.ttf') format('truetype') font-weight-thinitalic;
+}
+
+:root {
+    /* Colors */
+    --almost-white: hsl(0, 0%, 98%);
+    --medium-gray: hsl(0, 0%, 41%);
+    --almost-black: hsl(0, 0%, 8%);
+    --almond: #e9e9ed;
+
+    /* Fonts */
+
+    /* Sizes */
+    --tablet-breakpoint: 768px;
+    --desktop-breakpoint: 1024px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Epilogue', sans-serif;
+}
+
+body, html {
+    width: 100%;
+}
+
+#root {
+    padding: 30px;
+    background-color: #e9e9ed;
+    min-width: 320px;
+}
+
+p, span, a {
+    color: var(--medium-gray)
+}
+
+p {
+    font-size: 18px;
+}
